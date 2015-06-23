@@ -2,8 +2,8 @@
 From centos:7
 MAINTAINER Jorge Docampo <jorge.docampo@torusware.com>
 
-RUN yum -qqy update \
- && yum -qqy install wget unzip make gcc openjdk-7-jdk
+RUN yum -qy update \
+ && yum -qy install wget unzip make gcc
 
 ENV speedus_dir /opt/torusware/speedus
 ENV netpipe_dir $speedus_dir/benchmarks/NetPIPE-C

@@ -1,4 +1,5 @@
-![speedus logo](http://torusware.com/ingenyus/images/logowebtorus.png "Torusware Speedus")
+![speedus logo](http://dl.torusware.com/images/speedus_small.jpg "Torusware Speedus")
+![centos logo](https://d207aa93qlcgug.cloudfront.net/1.79.3/img/explore_repos/official_centos.png "CentOS")
 # Speedus Plug&Run Lite for CentOS
 CentOS image with speedus solution for high-performance communications. Check us out at [our website](http://torusware.com/).
 
@@ -36,3 +37,14 @@ As you can see, using speedus is really easy and non-intrusive, just type `speed
     speedus /path/to/the/program [parameters]
 
 If you need more information, you can check the README file inside the container or contact us at <info@torusware.com>
+
+#Check our other images in the Docker Hub
+
+- [speedus-ubuntu image](https://registry.hub.docker.com/u/torusware/speedus-ubuntu/ "Speedus Plug&Run Lite for Ubuntu")
+- [speedus-redis image](https://registry.hub.docker.com/u/torusware/speedus-redis/ "Speedus Plug&Run Lite for Redis")
+- [speedus-mongo image](https://registry.hub.docker.com/u/torusware/speedus-mongo/ "Speedus Plug&Run Lite for MongoDB")
+
+#Example Use Case
+
+- [Optimizing communications between Docker containers](http://blog.torusware.com/2015/04/optimizing-communications-between.html "Optimizing communications between Docker containers")
+- [Increasing performace of a MongoDB Docker container in Azure](http://blog.torusware.com/2015/05/increasing-performace-of-mongodb-docker.html "Increasing performace of a MongoDB Docker container in Azure")
